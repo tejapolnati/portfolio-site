@@ -1,38 +1,46 @@
 function Projects() {
   return (
-    <section id="projects" className="section">
+    <section id="projects">
       <div className="container">
+
         <h2>Projects</h2>
 
-        <div
-          style={{
-            display: "grid",
-            gap: "20px",
-            marginTop: "30px",
-          }}
-        >
-          <div className="card">
-            <h3>Smart Job Tracker Platform</h3>
+        {/* PROJECT 1 */}
+        <div style={{ marginBottom: "25px" }}>
+          <h3>Smart Job Tracker Platform</h3>
+          <p>
+            A full-stack job tracking system with authentication, role-based dashboards,
+            and CRUD operations for managing job applications and recruiters.
+          </p>
 
-            <p>
-             A full-stack recruitment management platform that enables recruiters to manage job postings, track applicants, and streamline hiring workflows through secure role-based authentication.
-Tech Stack:
-React.js, Node.js, Express.js, MySQL, JWT Authentication
-            </p>
-          </div>
-     GitHub:
-https://github.com/tejapolnati/job-tracker-backend
-          <div className="card">
-            <h3>Inventory & Sales Management System</h3>
+          <p>
+            <b>Tech Stack:</b> React, Node.js, Express, MySQL
+          </p>
 
-            <p>
-              A web application for managing inventory, tracking sales, monitoring stock levels, and generating business insights through analytics dashboards.
-
-Tech Stack:
-React.js, Node.js, Express.js, MySQL
-            </p>
-          </div>
+          <a href="https://github.com/your-github" target="_blank">
+            GitHub Link
+          </a>
         </div>
+
+        <hr />
+
+        {/* PROJECT 2 */}
+        <div style={{ marginTop: "25px" }}>
+          <h3>Inventory & Sales Management System</h3>
+          <p>
+            Developed a system to manage inventory, track sales, and generate basic analytics
+            for stock monitoring and business insights.
+          </p>
+
+          <p>
+            <b>Tech Stack:</b> React, Node.js, Express, MongoDB
+          </p>
+
+          <a href="https://github.com/your-github" target="_blank">
+            GitHub Link
+          </a>
+        </div>
+
       </div>
     </section>
   );

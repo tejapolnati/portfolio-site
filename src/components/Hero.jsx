@@ -3,70 +3,32 @@ function Hero() {
     <section className="section">
       <div className="container">
 
-        <h1>Teja Polnati</h1>
-        <h2>Full Stack Developer</h2>
+        <h1>Hi, I'm Teja Polnati</h1>
+
+        <h2>
+          Full Stack Developer | React.js | Node.js | Express | MySQL
+        </h2>
 
         <p>
-          Building responsive web applications using React.js, Node.js,
-          Express.js, MySQL and MongoDB.
+          I build scalable full-stack web applications with authentication,
+          REST APIs, and database-driven backend systems.
           <br /><br />
-          Passionate about creating scalable backend systems, REST APIs,
-          and full-stack solutions.
+          I specialize in turning real-world problems into functional,
+          production-ready web applications using the MERN stack.
         </p>
 
-        <br />
+        <div style={{ display: "flex", gap: "15px", flexWrap: "wrap", marginTop: "20px" }}>
 
-        {/* BUTTONS */}
-        <div style={{ display: "flex", gap: "15px", flexWrap: "wrap" }}>
-
-          <button className="btn">
+          <a href="#projects">
             View Projects
-          </button>
-
-          <button
-            style={{
-              padding: "12px 24px",
-              borderRadius: "8px",
-              border: "1px solid #38bdf8",
-              background: "transparent",
-              color: "white",
-              cursor: "pointer",
-            }}
-          >
-            Contact Me
-          </button>
-
-          {/* VIEW RESUME */}
-          <a
-            href="/TejasResume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              padding: "12px 24px",
-              borderRadius: "8px",
-              border: "1px solid #38bdf8",
-              color: "white",
-              textDecoration: "none",
-              display: "inline-block",
-            }}
-          >
-            View Resume
           </a>
 
-          {/* DOWNLOAD RESUME */}
-          <a
-            href="/TejasResume.pdf"
-            download
-            style={{
-              padding: "12px 24px",
-              borderRadius: "8px",
-              border: "1px solid #38bdf8",
-              color: "white",
-              textDecoration: "none",
-              display: "inline-block",
-            }}
-          >
-            Download Resume
+          <a href="/tejaspolnatiResume.pdf" target="_blank" rel="noopener noreferrer">
+            Resume
+          </a>
+
+          <a href="#contact">
+            Contact Me
           </a>
 
         </div>

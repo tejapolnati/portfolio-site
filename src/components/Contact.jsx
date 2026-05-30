@@ -1,44 +1,30 @@
 function Contact() {
   return (
-    <section id="contact" className="section">
+    <section id="contact">
       <div className="container">
+
         <h2>Contact</h2>
 
-        <p style={{ marginTop: "20px" }}>
-          Let's connect and discuss opportunities, projects, or collaborations.
-        </p>
-
-        <br />
-
         <p>
-          <strong>Email:</strong> tejapolnati5769@gmail.com
+          Feel free to reach out for opportunities or collaborations.
         </p>
 
-        <br />
+        <div style={{ marginTop: "15px", display: "flex", flexDirection: "column", gap: "10px" }}>
 
-      <p>
-  <strong>GitHub:</strong>{" "}
-  <a
-    href="https://github.com/tejapolnati"
-    target="_blank"
-    rel="noreferrer"
-  >
-    github.com/tejapolnati
-  </a>
-</p>
+          <a href="mailto:yourmail@gmail.com">
+            📧 yourmail@gmail.com
+          </a>
 
-<br />
+          <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
+            💻 GitHub
+          </a>
 
-<p>
-  <strong>LinkedIn:</strong>{" "}
-  <a
-    href="https://linkedin.com/in/teja-polnati-a1926026b"
-    target="_blank"
-    rel="noreferrer"
-  >
-    linkedin.com/in/teja-polnati-a1926026b
-  </a>
-</p>
+          <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+            🔗 LinkedIn
+          </a>
+
+        </div>
+
       </div>
     </section>
   );
