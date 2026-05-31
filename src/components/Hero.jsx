@@ -27,6 +27,16 @@ function Hero() {
             Resume
           </a>
 
+          <a
+  href="/tejasPolnatiResume.pdf"
+  download
+  target="_blank"
+  rel="noopener noreferrer"
+  className="resume-btn"
+>
+  Download Resume
+</a>
+
           <a href="#contact">
             Contact Me
           </a>
