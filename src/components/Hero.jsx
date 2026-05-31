@@ -28,7 +28,7 @@ function Hero() {
           </a>
 
           <a
-  href="/tejasPolnatiResume.pdf"
+             href="/tejaspolnatiResume.pdf"
   download
   target="_blank"
   rel="noopener noreferrer"

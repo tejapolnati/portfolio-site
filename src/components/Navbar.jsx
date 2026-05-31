@@ -19,7 +19,7 @@ function Navbar() {
           alignItems: "center",
         }}
       >
-        <h2 style={{ color: "#38bdf8" }}>Teja.</h2>
+        <h2 style={{ color: "#38bdf8" }}>Teja Polnati</h2>
 
         <div style={{ display: "flex", gap: "20px" }}>
           <a href="#about">About</a>
