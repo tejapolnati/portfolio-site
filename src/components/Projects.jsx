@@ -1,44 +1,80 @@
 function Projects() {
   return (
-    <section id="projects">
+    <section id="projects" className="section">
       <div className="container">
 
         <h2>Projects</h2>
 
         {/* PROJECT 1 */}
-        <div style={{ marginBottom: "25px" }}>
+        <div className="card">
           <h3>Smart Job Tracker Platform</h3>
+
           <p>
-            A full-stack job tracking system with authentication, role-based dashboards,
-            and CRUD operations for managing job applications and recruiters.
+            Full-stack job tracking system with authentication, role-based dashboards,
+            and CRUD operations for managing job applications.
           </p>
 
           <p>
-            <b>Tech Stack:</b> React, Node.js, Express, MySQL
+            <b>Tech:</b> React, Node.js, Express, MySQL
           </p>
 
-          <a href="https://github.com/your-github" target="_blank">
-            GitHub Link
-          </a>
+          <div className="project-buttons">
+
+            <a
+              href="https://your-live-demo-link.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="demo-btn"
+            >
+              Live Demo
+            </a>
+
+            <a
+              href="https://github.com/tejapolnati/job-tracker"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="github-btn"
+            >
+              GitHub →
+            </a>
+
+          </div>
         </div>
 
-        <hr />
-
         {/* PROJECT 2 */}
-        <div style={{ marginTop: "25px" }}>
-          <h3>Inventory & Sales Management System</h3>
+        <div className="card">
+          <h3>Inventory & Sales System</h3>
+
           <p>
-            Developed a system to manage inventory, track sales, and generate basic analytics
-            for stock monitoring and business insights.
+            Inventory management system with sales tracking and basic analytics
+            for business insights and stock monitoring.
           </p>
 
           <p>
-            <b>Tech Stack:</b> React, Node.js, Express, MongoDB
+            <b>Tech:</b> React, Node.js, Express, MongoDB
           </p>
 
-          <a href="https://github.com/your-github" target="_blank">
-            GitHub Link
-          </a>
+          <div className="project-buttons">
+
+            <a
+              href="https://your-live-demo-link.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="demo-btn"
+            >
+              Live Demo
+            </a>
+
+            <a
+              href="https://github.com/tejapolnati/inventory-system"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="github-btn"
+            >
+              GitHub →
+            </a>
+
+          </div>
         </div>
 
       </div>
