@@ -21,10 +21,9 @@ function Contact() {
           </a>
 
           <a
-            href="https://github.com/tejapolnati"
+           href="https://github.com/tejapolnati" onClick={() => alert("GitHub clicked")}>
             target="_blank"
             rel="noopener noreferrer"
-          >
             💻 GitHub
           </a>
 
