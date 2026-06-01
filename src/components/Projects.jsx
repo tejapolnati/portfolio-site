@@ -20,7 +20,7 @@ function Projects() {
 
           <div className="project-buttons">
             <a
-              href="https://github.com/tejapolnati/job-tracker"
+              href="https://github.com/tejapolnati/job-tracker-backend"
               target="_blank"
               rel="noopener noreferrer"
               className="github-btn"
@@ -29,30 +29,6 @@ function Projects() {
             </a>
           </div>
         </div>
-
-        {/* PROJECT 2 */}
-        <div className="card">
-          <h3>Inventory & Sales System</h3>
-
-          <p>
-            Inventory management system with sales tracking and basic analytics
-            for business insights and stock monitoring.
-          </p>
-
-          <p>
-            <b>Tech:</b> React, Node.js, Express, MongoDB
-          </p>
-
-          <div className="project-buttons">
-            <a
-              href="https://github.com/tejapolnati/inventory-system"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="github-btn"
-            >
-              GitHub →
-            </a>
-          </div>
         </div>
 
       </div>
