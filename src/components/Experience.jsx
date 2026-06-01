@@ -2,28 +2,58 @@ function Experience() {
   return (
     <section id="experience" className="section">
       <div className="container">
-        <h2>Experience</h2>
+        <h2>Experience & Training</h2>
 
         <br />
 
-        <h3>Full Stack Developer Intern</h3>
-        <p>Avyukt Core Technologies | Apr 2025 – Jun 2025</p>
+        <h3>CAD Designer</h3>
+        <p>INNBOX Modular Prefab | Nov 2024 – May 2025</p>
 
         <ul>
-          <li>Developed REST APIs using Node.js and Express.js</li>
-          <li>Integrated React frontend with backend services</li>
-          <li>Implemented JWT authentication and CRUD operations</li>
+          <li>
+            Created and modified detailed 2D technical drawings using AutoCAD.
+          </li>
+          <li>
+            Prepared fabrication and production drawings for modular construction projects.
+          </li>
+          <li>
+            Reviewed design specifications and ensured drawing accuracy and compliance with project requirements.
+          </li>
+          <li>
+            Collaborated with engineering and production teams to support project execution.
+          </li>
+          <li>
+            Maintained technical documentation and managed drawing revisions throughout project lifecycles.
+          </li>
         </ul>
 
         <br />
 
-        <h3>Design & Production Coordinator</h3>
-        <p>INNBOX Modular Prefab | Mar 2024 – Sep 2024</p>
+        <h3>NxtWave CCBP 4.0 Intensive</h3>
+        <p>Full Stack Development Fellow | Aug 2023 – Sep 2024</p>
 
         <ul>
-          <li>Assisted in design coordination and documentation</li>
-          <li>Supported production planning workflows</li>
-          <li>Worked with AutoCAD drawings and fabrication teams</li>
+          <li>
+            Completed an intensive Full Stack Development program focused on industry-ready software development skills.
+          </li>
+          <li>
+            Learned HTML, CSS, JavaScript, React.js, Node.js, Express.js, and MySQL.
+          </li>
+          <li>
+            Built responsive web applications, REST APIs, and database-driven applications.
+          </li>
+          <li>
+            Implemented authentication systems, CRUD operations, and frontend-backend integration.
+          </li>
+          <li>
+            Worked with Git, GitHub, Postman, debugging tools, and modern development workflows.
+          </li>
+          <li>
+            Strengthened problem-solving skills through coding challenges and project-based learning.
+          </li>
+          <li>
+            Developed hands-on experience in full-stack application development and deployment.
+          </li>
         </ul>
       </div>
     </section>
