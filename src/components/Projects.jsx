@@ -19,16 +19,6 @@ function Projects() {
           </p>
 
           <div className="project-buttons">
-
-            <a
-              href="https://your-live-demo-link.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="demo-btn"
-            >
-              Live Demo
-            </a>
-
             <a
               href="https://github.com/tejapolnati/job-tracker"
               target="_blank"
@@ -37,7 +27,6 @@ function Projects() {
             >
               GitHub →
             </a>
-
           </div>
         </div>
 
@@ -55,16 +44,6 @@ function Projects() {
           </p>
 
           <div className="project-buttons">
-
-            <a
-              href="https://your-live-demo-link.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="demo-btn"
-            >
-              Live Demo
-            </a>
-
             <a
               href="https://github.com/tejapolnati/inventory-system"
               target="_blank"
@@ -73,7 +52,6 @@ function Projects() {
             >
               GitHub →
             </a>
-
           </div>
         </div>
 
