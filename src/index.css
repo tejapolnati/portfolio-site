@@ -9,7 +9,12 @@ html {
 }
 
 body {
-  background: #0f172a;
+  background: linear-gradient(
+    135deg,
+    #0f172a,
+    #1e293b,
+    #0f172a
+  );
   color: white;
   font-family: Arial, sans-serif;
 }
@@ -37,4 +42,61 @@ body {
   background: #1e293b;
   padding: 20px;
   border-radius: 12px;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.hero-buttons a {
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  border: 1px solid #ddd;
+  transition: all 0.3s ease;
+}
+
+.hero-buttons a:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.resume-btn {
+  cursor: pointer;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.hero-buttons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 160px;
+  height: 48px;
+
+  padding: 0 20px;
+
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+
+  border: 1px solid #ddd;
+
+  transition: all 0.3s ease;
+}
+
+.hero-buttons a:hover {
+  transform: translateY(-2px);
 }
