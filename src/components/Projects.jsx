@@ -5,20 +5,30 @@ function Projects() {
 
         <h2>Projects</h2>
 
-        {/* PROJECT 1 */}
         <div className="card">
           <h3>Smart Job Tracker Platform</h3>
 
           <p>
-            Full-stack job tracking system with authentication, role-based dashboards,
-            and CRUD operations for managing job applications.
+            Built a full-stack Job Tracker application with user authentication,
+            job management, status tracking, and cloud database integration.
+            Users can add, update, view, and delete job applications.
           </p>
 
           <p>
-            <b>Tech:</b> React, Node.js, Express, MySQL
+            <b>Tech:</b> React, Node.js, Express.js, MySQL, JWT, Railway, Render, Vercel
           </p>
 
           <div className="project-buttons">
+
+            <a
+              href="https://job-tracker-frontend-pi-steel.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="github-btn"
+            >
+              Live Demo →
+            </a>
+
             <a
               href="https://github.com/tejapolnati/job-tracker-backend"
               target="_blank"
@@ -27,8 +37,8 @@ function Projects() {
             >
               GitHub →
             </a>
+
           </div>
-        </div>
         </div>
 
       </div>
